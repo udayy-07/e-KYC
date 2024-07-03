@@ -9,13 +9,7 @@ from postprocess import extract_information
 from face_verification import detect_and_extract_face, face_comparison, get_face_embeddings
 from mysqldb_operations import insert_records, fetch_records, check_duplicacy
 
-# {
-#   "ID": "CCNPA",
-#   "Name": "BIBEK RAUTH",
-#   "Father's Name": "AJAY RAUTH",
-#   "DOB": "14/09/1994",
-#   "ID Type": "PAN"
-# }
+
 
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
